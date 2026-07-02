@@ -1,0 +1,28 @@
+#main{
+    background: #a77171;
+    color: rgb(54, 16, 16);
+    text-align: center;
+    padding: 10px;
+}
+#name{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+#city{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+#pin{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+}
+#btn{
+    border: 2px solid rgb(91, 23, 186);
+    background-color: rgb(24, 18, 207);
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: aqua;
+        }
+
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+
+        /* Id selector */
+        #blue{
+            background-color: blue;
+        }
+
+        /* Child selector */
+
+        div > p {
+            color: rgb(32, 225, 64);
+        }
+
+        /* Descrendant Selector */
+        div p {
+            background-color: chocolate;
+            color: rgb(234, 4, 4);
+        }
+
+        /* Universal Selector */
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Pseudo Selector */
+
+        a:visited{
+            color :chartreuse
+        }
+
+        a:link{
+            background-color: brown;
+            color: aqua;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: coral;
+        }
+
+        p:first-child{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div id="blue">
+        this is first div.
+        <p>First div paragraph</p>
+    </div>
+    <div class="red">
+        this is second div.
+        <section>
+            <p>Second div paragraph whithin section</p>
+        </section>
+    </div>
+    <a href="https://www.google.com">Gogle.come</a>
+    <br>
+    <a href="https://www.facebook.com">FaceBook.com</a>
+    
+    <main>
+        <p>This is first main para</p>
+        <p>This is Second main para</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise-5</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0;
+            }
+            header{
+                position: sticky;
+                top: 0;
+            }
+            body{
+                margin: 0;
+                background-color: rgb(4, 4, 4);
+            }
+            nav{
+                background-color: rgb(144, 62, 221);
+                width: 100vw;
+                height: 50px;
+            }
+            .main{
+                background-color: green;
+                margin: 11px 20px;
+                width: 96vw;
+                height: 650px;
+                display: flex;
+                
+            }
+            .contenar{
+                background-color: rgb(215, 204, 105);
+                flex-direction: column;
+                margin: 50px 60px;
+                width: 40vw;
+                height: 550px;
+            }
+            #first{
+                background: #0ec4a8;
+            }
+            #second{
+                background-color: rgb(114, 102, 226);
+            }
+
+            .content{
+                color: white;
+                width: 70vw;
+                margin : 10px 180px;
+                padding: 50px;
+                border: 2px solid white;
+                border-radius: 30px;
+                text-align: center;
+                
+            }
+            .logo{
+                width: 50px;
+                height: 50px;
+                background-color: yellow;
+                border: 2px solid white;
+                border-radius: 50%;
+                position: fixed;
+                bottom: 12px;
+                right: 23px;
+            }
+            footer{
+                background-color: rgba(255, 255, 255, 0.601);
+                width: 100vw;
+                height: 60px;
+                margin-top: 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+            <div class="main">
+                <div class="contenar" id="first"></div>
+                <div class="contenar" id="second"></div>
+            </div>
+    
+            <div class="content">
+                <h1> Welcome to this Web Development Day 150. <br> This is Sigma Web Development Express</h1>
+            </div>
+            <div class="logo"></div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nav Bar Design</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            margin: 20px;
+            padding: 20px;
+        }
+       .logo img{
+            width: 130px;            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+        .right ul {
+            display: flex;
+            gap: 40px;
+        }
+        
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li span{
+            padding: 0 5px;
+        }
+    </style>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><span>Product</span> <img width="20px" src="down-arrow.png" alt=""></li>
+                        <li><span>Pricing</span> <img width="20px" src="down-arrow.png" alt=""></li>
+                        <li><span>Resource</span> <img width="20px" src="down-arrow.png" alt=""></li>
+                        <li><span>About Us</span> <img width="20px" src="down-arrow.png" alt=""></li>
+                        <li>
+                            <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    border: 2px solid white;
+    font-size: 25px;
+}
+a{
+    gap: 200px;
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+}
+input{
+    background-color: white;
+    color: black;
+}

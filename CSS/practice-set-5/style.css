@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    background-color: #d5ce08;
+}
+
+div{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    right: 0px;
+}

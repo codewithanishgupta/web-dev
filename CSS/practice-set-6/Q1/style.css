@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(4, 89, 248);
+    align-items: center;
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    font-size: large;
+}

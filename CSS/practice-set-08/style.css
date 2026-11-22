@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loader{
+    /* background-color: #657ed4; */
+    width: 200px;
+    height: 200px;
+    border: 20px solid #DBAA0B;
+    border-top: 20px solid #3626a7;
+    border-radius: 50%;
+    animation: spinAnimate 1s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
